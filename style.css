@@ -162,9 +162,9 @@ body{
         flex-direction: row;
         gap: 1em;
     }
-    .botoes a{
+    .botoes a, .botoes-parceiros a{
         width: 6em;
-        font-size: 1em;
+        font-size: 1.3em;
         padding: 0.8em;
     }
     .container-parceiros{
@@ -178,11 +178,6 @@ body{
     }
     .botoes-parceiros{
         gap: 1em;
-    }
-    .botoes-parceiros a{
-        width: 6em;
-        font-size: 1em;
-        padding: 0.8em;
     }
 
 }
