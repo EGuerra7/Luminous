@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&display=swap');
+:root{
+    --cor-um: #7D5A5A;
+    --cor-dois: #F1D1D1;
+    --cor-três: #f3E1E1;
+    --cor-quatro: #FAF2F2;
+    --fonte: "Libre Caslon Display", serif; 
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: var(--fonte);
+    background-color: var(--cor-quatro);
+}
+.cabecalho{
+    background-color: var(--cor-três);
+    height: 4em;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cabecalho-titulo{
+    font-size: 3em;
+    font-weight: 500;
+    padding-left: 0.5em;
+}
+.cabecalho-espaço{
+    background-color: var(--cor-dois);
+    height: 0.8em;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.container-prin{
+    display: flex;
+    padding: 5em 12em;
+    flex-direction: column;
+    gap: 4em;
+}
+.container-prin-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+.container-prin-img{
+    width: 19em;
+    border: none;
+    border-radius: 50px;
+}
+.container-nome, .container-prof{
+    text-align:center;
+}
+.container-nome{
+    font-size: 4em;
+    font-weight: 500;
+}
+.container-prof{
+    font-size: 2em;
+    font-weight: 500;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+.botoes a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    width: 10em;
+    background-color: var(--cor-três);
+    padding: 0.8em;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte);
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: .4s;
+}
+.botoes a:hover{
+    background-color: var(--cor-dois);
+}
+.img-vector{
+    width: 1.3em;
+    padding-right: 0.5em;
+}
+.container-parceiros{
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 10em;
+}
+.container-parceiros h2{
+    font-size: 3.6em;
+    font-weight: 550;
+}
+.nome-par{
+    font-size: 3em;
+    font-weight: 500;
+    flex-wrap: wrap;
+}
+.botoes-parceiros{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+}
+.botoes-parceiros a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    border-radius: 50px;
+    width: 7em;
+    background-color: var(--cor-três);
+    padding: 0.8em;
+    text-decoration: none;
+    color: black;
+    font-family: var(--fonte);
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: .4s;
+}
+.botoes-parceiros a:hover{
+    background-color: var(--cor-dois);
+}
+
+
+
+
+
+
+@media screen and (max-width:728px) {
+    .container-prin{
+        padding: 3em;
+        
+    }
+    .container-prin-div{
+        flex-direction: column;
+        gap: 2em;
+    }
+    .container-prin-img{
+        width: 17em;
+    }
+    .container-nome{
+        font-size: 3em;
+    }
+    .container-prof{
+        font-size: 1.5;
+    }
+    .botoes{
+        flex-direction: row;
+        gap: 1em;
+    }
+    .botoes a{
+        width: 6em;
+    }
+    .container-parceiros{
+        gap: 2.5em;
+    }
+    .container-parceiros h2{
+        font-size: 3em;
+    }
+    .nome-par{
+        font-size: 2.4em;
+    }
+    .botoes-parceiros{
+        gap: 1em;
+    }
+    .botoes-parceiros a{
+        width: 6em;
+    }
+
+}
