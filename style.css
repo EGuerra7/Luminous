@@ -163,7 +163,9 @@ body{
         gap: 1em;
     }
     .botoes a{
-        width: 6em;
+        width: 4.5em;
+        font-size: 1em;
+        padding: 0.4em;
     }
     .container-parceiros{
         gap: 2.5em;
@@ -178,7 +180,9 @@ body{
         gap: 1em;
     }
     .botoes-parceiros a{
-        width: 6em;
+        width: 4.5em;
+        font-size: 1em;
+        padding: 0.4em;
     }
 
 }
